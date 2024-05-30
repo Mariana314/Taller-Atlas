@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header p{
+    margin-right: 80px;
+}
+
+.inicio{
+    background-image: url("../assets/images/banner-bk.jpg");
+    padding: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
+   background-position: center;
+}
+
+.titulo1{
+    max-width:40% ;
+    margin: 40px 70px;
+    justify-content: flex-end;
+    text-align: justify;
+}
+
+.texto{
+    font-family:sans-serif;
+    font-size:  55px;
+}
+
+.icono{
+    color: #fafafa;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+    justify-content: flex-end;
+    display: flex;
+}
+
+.button{
+    background-color: #34e991;
+    color: rgb(0, 0, 0);
+    padding: 15px 40px;
+    border: none;
+    border-radius: 60px;
+}
+
+.logo{
+    margin: 40px 70px;
+    width: 100px;
+    height: auto;
+   
+}
+
+.segundoTitulo{
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+
+.img {
+    margin: 100px 50px;
+    max-width: 300px;
+    
+  }
+
+.button2{
+    background-color: #090c25;
+    color: rgb(255, 255, 255);
+    padding: 15px 40px;
+    border: none;
+    border-radius: 60px;
+}
+
+
+
+.tercerTitulo{
+    padding: 60px 100px;
+    text-align:left;
+    background: linear-gradient(160deg, #fff 50%, #34e991 0);
+  }
+
+
+.container1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container1 div, .container1 img{
+    width: 45%;
+}
+
+.titulo2{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto3{
+    width: 100%;
+}
+
+.p2{
+    color: #666;
+}
+
