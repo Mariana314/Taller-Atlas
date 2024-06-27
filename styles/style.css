@@ -200,6 +200,8 @@ span {
 }
 
 .clientes {
+    position: sticky;
+    bottom: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -222,6 +224,14 @@ span {
     margin: 0 10px;
     max-height: 50px;
 }
+#pato{
+    position: relative;
+    bottom: -85px;
+    width:150px ;
+    right: 45%;
+    
+}
+
   
 .formulario{
     background-image: url("../assets/images/contact-bk.jpg");
